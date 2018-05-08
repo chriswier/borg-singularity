@@ -7,5 +7,9 @@ From: tensorflow/tensorflow:latest-gpu
 %post
 	echo "Running : apt update"
 	apt update
+	echo "Running : apt install build-essential
+	apt install -y build-essential
+	echo "Running : apt install python-dev
+	apt install -y python-dev
 	echo "Installing : pip - keras"
 	pip install keras
