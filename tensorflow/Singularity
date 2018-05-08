@@ -1,0 +1,11 @@
+Bootstrap: docker
+From: tensorflow/tensorflow:latest-gpu
+
+%labels
+	Maintainer cwieri39@calvin.edu
+
+%post
+	echo "Running : apt update"
+	apt update
+	echo "Installing : pip - keras"
+	pip install keras
