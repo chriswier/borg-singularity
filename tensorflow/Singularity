@@ -11,12 +11,6 @@ From: tensorflow/tensorflow:latest-gpu
 	apt install -y build-essential
 	echo "Running : apt install python-dev
 	apt install -y python-dev
-	echo "Installing : pip upgrade"
-	pip install --upgrade pip
 	echo "Installing : pip - keras"
-	pip install scipy
-	pip install six
-	pip install pyyaml
-	pip install h5py
-	pip install numpy
-	pip install Keras
+	apt install -y python-scipy python-numpy python-six python-h5py python-yaml
+	pip install -q Keras
