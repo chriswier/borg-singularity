@@ -13,3 +13,4 @@ From: tensorflow/tensorflow:latest-gpu
 	apt install -y python-dev
 	echo "Installing : pip - keras"
 	apt install -y python-scipy python-numpy python-six python-h5py python-yaml
+	pip install keras --no-deps
